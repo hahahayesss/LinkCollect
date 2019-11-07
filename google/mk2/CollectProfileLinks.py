@@ -95,12 +95,16 @@ def update_csv(csv_file, list):
     _data.to_csv(csv_file)
 
 
+# Driver Location -> /usr/bin/chromedriver
+# -------------
+# Driver Location -> D:\chromedriver_76.exe
+
 @click.command()
 @click.option("--driver", "-d",
-              default=r"/usr/bin/chromedriver",
+              default=r"D:\chromedriver_76.exe",
               help="Chrome driver location")
 @click.option("--csv_file", "-i",
-              default=r"/home/mluser/Desktop/LinkCollect/_jobs.csv",
+              default=r"../../_jobs.csv",
               help="Input CSV file")
 @click.option("--search_limit", "-l",
               default=2,
@@ -111,6 +115,7 @@ def start(driver, csv_file, search_limit):
 
     for _data in filtered_list:
         search_job(_driver, _data[1])
+        time.sleep(5)
         _links = collect_all(_driver)
         save_links(_links, (_data[1] + ".csv"))
         full_list = _update_list(full_list,

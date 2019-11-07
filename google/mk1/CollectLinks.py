@@ -1,3 +1,4 @@
+import time
 import click
 import pandas as pd
 
@@ -7,7 +8,7 @@ from selenium.webdriver.common.keys import Keys
 
 @click.command()
 @click.option("--driver", "-d",
-              default=r"D:\chromedriver_76.exe",
+              default=r"/usr/bin/chromedriver",
               help="Chrome WebDriver.exe location")
 @click.option("--options", "-o",
               default="",
@@ -16,29 +17,31 @@ def start(driver, options):
     print("- / Starting driver")
     driver = webdriver.Chrome(driver)
 
-    job_data = pd.read_csv("../jobs.csv")
+    job_data = pd.read_csv("../jobs.csv").values[0:10]
     links_list = []
-    for index, job in enumerate(job_data.values):
+    for index, job in enumerate(job_data):
+        print("- / Searching... (" + job + ")")
         driver.get("https://www.google.com/")
         search_element = driver.find_element_by_name("q")
         search_element.send_keys("site:linkedin.com/in/ AND \"" + job + "\"")
         search_element.send_keys(Keys.RETURN)
 
-        for x in range(2):
+        while len(driver.find_elements_by_id("recaptcha")) > 0:
+            time.sleep(1)
+
+        while 1 == 1:
             links_and_texts = driver.find_elements_by_class_name("r")
             for link_and_text in links_and_texts:
                 link = link_and_text.find_element_by_css_selector("a").get_attribute("href")
                 links_list.append(link)
-            driver.find_element_by_id("pnnext").click()
-
-        if index > 10:
-            break
-
-    print(len(links_list))
-    for link in links_list:
-        print(link)
+            if len(driver.find_elements_by_id("pnnext")) > 0:
+                driver.find_element_by_id("pnnext").click()
+            else:
+                break
 
     driver.close()
+    collected_links = pd.DataFrame(links_list, columns=["linkedin_link"])
+    collected_links.to_csv("../" + str(int(time.time())) + ".csv")
 
 
 if __name__ == '__main__':

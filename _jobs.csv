@@ -1,0 +1,471 @@
+,job_title,time,collected,file_name
+0,Marketing Specialist,1573143042,326,Marketing Specialist.csv
+1,Marketing Manager,1573143228,398,Marketing Manager.csv
+2,Marketing Director,1573145757,333,Marketing Director.csv
+3,Graphic Designer,1573146302,280,Graphic Designer.csv
+4,Marketing Research Analyst,0,0,0
+5,Marketing Communications Manager,0,0,0
+6,Marketing Consultant,0,0,0
+7,Product Manager,0,0,0
+8,Public Relations,0,0,0
+9,Social Media Assistant,0,0,0
+10,Brand Manager,0,0,0
+11,SEO Manager,0,0,0
+12,Content Marketing Manager,0,0,0
+13,Copywriter,0,0,0
+14,Media Buyer,0,0,0
+15,Digital Marketing Manager,0,0,0
+16,eCommerce Marketing Specialist,0,0,0
+17,Brand Strategist,0,0,0
+18,Vice President of Marketing,0,0,0
+19,Media Relations Coordinator,0,0,0
+20,Administrative Assistant,0,0,0
+21,Receptionist,0,0,0
+22,Office Manager,0,0,0
+23,Auditing Clerk,0,0,0
+24,Bookkeeper,0,0,0
+25,Account Executive,0,0,0
+26,Branch Manager,0,0,0
+27,Business Manager,0,0,0
+28,Quality Control Coordinator,0,0,0
+29,Administrative Manager,0,0,0
+30,Chief Executive Officer,0,0,0
+31,Business Analyst,0,0,0
+32,Risk Manager,0,0,0
+33,Human Resources,0,0,0
+34,Office Assistant,0,0,0
+35,Secretary,0,0,0
+36,Office Clerk,0,0,0
+37,File Clerk,0,0,0
+38,Account Collector,0,0,0
+39,Administrative Specialist,0,0,0
+40,Executive Assistant,0,0,0
+41,Program Administrator,0,0,0
+42,Program Manager,0,0,0
+43,Administrative Analyst,0,0,0
+44,Data Entry,0,0,0
+45,CEO,0,0,0
+46,Chief Executive Officer,0,0,0
+47,COO,0,0,0
+48,Chief Operating Officer,0,0,0
+49,CFO,0,0,0
+50,Chief Financial Officer,0,0,0
+51,CIO,0,0,0
+52,Chief Information Officer,0,0,0
+53,CTO,0,0,0
+54,Chief Technology Officer,0,0,0
+55,CMO,0,0,0
+56,Chief Marketing Officer,0,0,0
+57,CHRO,0,0,0
+58,Chief Human Resources Officer,0,0,0
+59,CDO,0,0,0
+60,Chief Data Officer,0,0,0
+61,CPO,0,0,0
+62,Chief Product Officer,0,0,0
+63,CCO,0,0,0
+64,Chief Customer Officer,0,0,0
+65,Team Leader,0,0,0
+66,Manager,0,0,0
+67,Assistant Manager,0,0,0
+68,Executive,0,0,0
+69,Director,0,0,0
+70,Coordinator,0,0,0
+71,Administrator,0,0,0
+72,Controller,0,0,0
+73,Officer,0,0,0
+74,Organizer,0,0,0
+75,Supervisor,0,0,0
+76,Superintendent,0,0,0
+77,Head,0,0,0
+78,Overseer,0,0,0
+79,Chief,0,0,0
+80,Foreman,0,0,0
+81,Controller,0,0,0
+82,Principal,0,0,0
+83,President,0,0,0
+84,Lead,0,0,0
+85,Computer Scientist,0,0,0
+86,IT Professional,0,0,0
+87,UX Designer & UI Developer,0,0,0
+88,SQL Developer,0,0,0
+89,Web Designer,0,0,0
+90,Web Developer,0,0,0
+91,Help Desk Worker/Desktop Support,0,0,0
+92,Software Engineer,0,0,0
+93,Data Entry,0,0,0
+94,DevOps Engineer,0,0,0
+95,Computer Programmer,0,0,0
+96,Network Administrator,0,0,0
+97,Information Security Analyst,0,0,0
+98,Artificial Intelligence Engineer,0,0,0
+99,Cloud Architect,0,0,0
+100,IT Manager,0,0,0
+101,Technical Specialist,0,0,0
+102,Application Developer,0,0,0
+103,Chief Technology Officer (CTO),0,0,0
+104,Chief Information Officer (CIO),0,0,0
+105,Sales Associate,0,0,0
+106,Sales Representative,0,0,0
+107,Sales Manager,0,0,0
+108,Retail Worker,0,0,0
+109,Store Manager,0,0,0
+110,Sales Representative,0,0,0
+111,Sales Manager,0,0,0
+112,Real Estate Broker,0,0,0
+113,Sales Associate,0,0,0
+114,Cashier,0,0,0
+115,Store Manager,0,0,0
+116,Account Executive,0,0,0
+117,Account Manager,0,0,0
+118,Area Sales Manager,0,0,0
+119,Direct Salesperson,0,0,0
+120,Director of Inside Sales,0,0,0
+121,Outside Sales Manager,0,0,0
+122,Sales Analyst,0,0,0
+123,Market Development Manager,0,0,0
+124,B2B Sales Specialist,0,0,0
+125,Sales Engineer,0,0,0
+126,Construction Worker,0,0,0
+127,Taper,0,0,0
+128,Plumber,0,0,0
+129,Heavy Equipment Operator,0,0,0
+130,Vehicle or Equipment Cleaner,0,0,0
+131,Carpenter,0,0,0
+132,Electrician,0,0,0
+133,Painter,0,0,0
+134,Welder,0,0,0
+135,Handyman,0,0,0
+136,Boilermaker,0,0,0
+137,Crane Operator,0,0,0
+138,Building Inspector,0,0,0
+139,Pipefitter,0,0,0
+140,Sheet Metal Worker,0,0,0
+141,Iron Worker,0,0,0
+142,Mason,0,0,0
+143,Roofer,0,0,0
+144,Solar Photovoltaic Installer,0,0,0
+145,Well Driller,0,0,0
+146,CEO,0,0,0
+147,Proprietor,0,0,0
+148,Principal,0,0,0
+149,Owner,0,0,0
+150,President,0,0,0
+151,Founder,0,0,0
+152,Administrator,0,0,0
+153,Director,0,0,0
+154,Managing Partner,0,0,0
+155,Managing Member,0,0,0
+156,Board of Directors,0,0,0
+157,C-Level or C-Suite.,0,0,0
+158,Shareholders,0,0,0
+159,Managers,0,0,0
+160,Supervisors,0,0,0
+161,Front-Line Employees,0,0,0
+162,Quality Control,0,0,0
+163,Human Resources,0,0,0
+164,Accounting Staff,0,0,0
+165,Marketing Staff,0,0,0
+166,Purchasing Staff,0,0,0
+167,Shipping and Receiving Staff,0,0,0
+168,Office Manager,0,0,0
+169,Receptionist,0,0,0
+170,Virtual Assistant,0,0,0
+171,Customer Service,0,0,0
+172,Customer Support,0,0,0
+173,Concierge,0,0,0
+174,Help Desk,0,0,0
+175,Customer Service Manager,0,0,0
+176,Technical Support Specialist,0,0,0
+177,Account Representative,0,0,0
+178,Client Service Specialist,0,0,0
+179,Customer Care Associate,0,0,0
+180,Operations Manager,0,0,0
+181,Operations Assistant,0,0,0
+182,Operations Coordinator,0,0,0
+183,Operations Analyst,0,0,0
+184,Operations Director,0,0,0
+185,Vice President of Operations,0,0,0
+186,Operations Professional,0,0,0
+187,Scrum Master,0,0,0
+188,Continuous Improvement Lead,0,0,0
+189,Continuous Improvement Consultant,0,0,0
+190,Credit Authorizer,0,0,0
+191,Benefits Manager,0,0,0
+192,Credit Counselor,0,0,0
+193,Accountant,0,0,0
+194,Bookkeeper,0,0,0
+195,Accounting Analyst,0,0,0
+196,Accounting Director,0,0,0
+197,Accounts Payable/Receivable Clerk,0,0,0
+198,Auditor,0,0,0
+199,Budget Analyst,0,0,0
+200,Controller,0,0,0
+201,Financial Analyst,0,0,0
+202,Finance Manager,0,0,0
+203,Economist,0,0,0
+204,Payroll Manager,0,0,0
+205,Payroll Clerk,0,0,0
+206,Financial Planner,0,0,0
+207,Financial Services Representative,0,0,0
+208,Finance Director,0,0,0
+209,Commercial Loan Officer,0,0,0
+210,Engineer,0,0,0
+211,Mechanical Engineer,0,0,0
+212,Civil Engineer,0,0,0
+213,Electrical Engineer,0,0,0
+214,Assistant Engineer,0,0,0
+215,Chemical Engineer,0,0,0
+216,Chief Engineer,0,0,0
+217,Drafter,0,0,0
+218,Engineering Technician,0,0,0
+219,Geological Engineer,0,0,0
+220,Biological Engineer,0,0,0
+221,Maintenance Engineer,0,0,0
+222,Mining Engineer,0,0,0
+223,Nuclear Engineer,0,0,0
+224,Petroleum Engineer,0,0,0
+225,Plant Engineer,0,0,0
+226,Production Engineer,0,0,0
+227,Quality Engineer,0,0,0
+228,Safety Engineer,0,0,0
+229,Sales Engineer,0,0,0
+230,Chief People Officer,0,0,0
+231,VP of Miscellaneous Stuff,0,0,0
+232,Chief Robot Whisperer,0,0,0
+233,Director of First Impressions,0,0,0
+234,Culture Operations Manager,0,0,0
+235,Director of Ethical Hacking,0,0,0
+236,Software Ninjaneer,0,0,0
+237,Director of Bean Counting,0,0,0
+238,Digital Overlord,0,0,0
+239,Director of Storytelling,0,0,0
+240,Researcher,0,0,0
+241,Research Assistant,0,0,0
+242,Data Analyst,0,0,0
+243,Business Analyst,0,0,0
+244,Financial Analyst,0,0,0
+245,Biostatistician,0,0,0
+246,Title Researcher,0,0,0
+247,Market Researcher,0,0,0
+248,Title Analyst,0,0,0
+249,Medical Researcher,0,0,0
+250,Mentor,0,0,0
+251,Tutor/Online Tutor,0,0,0
+252,Teacher,0,0,0
+253,Teaching Assistant,0,0,0
+254,Substitute Teacher,0,0,0
+255,Preschool Teacher,0,0,0
+256,Test Scorer,0,0,0
+257,Online ESL Instructor,0,0,0
+258,Professor,0,0,0
+259,Assistant Professor,0,0,0
+260,Graphic Designer,0,0,0
+261,Artist,0,0,0
+262,Interior Designer,0,0,0
+263,Video Editor,0,0,0
+264,Video or Film Producer,0,0,0
+265,Playwright,0,0,0
+266,Musician,0,0,0
+267,Novelist/Writer,0,0,0
+268,Computer Animator,0,0,0
+269,Photographer,0,0,0
+270,Camera Operator,0,0,0
+271,Sound Engineer,0,0,0
+272,Motion Picture Director,0,0,0
+273,Actor,0,0,0
+274,Music Producer,0,0,0
+275,Director of Photography,0,0,0
+276,Nurse,0,0,0
+277,Travel Nurse,0,0,0
+278,Nurse Practitioner,0,0,0
+279,Doctor,0,0,0
+280,Caregiver,0,0,0
+281,CNA,0,0,0
+282,Physical Therapist,0,0,0
+283,Pharmacist,0,0,0
+284,Pharmacy Assistant,0,0,0
+285,Medical Administrator,0,0,0
+286,Medical Laboratory Tech,0,0,0
+287,Physical Therapy Assistant,0,0,0
+288,Massage Therapy,0,0,0
+289,Dental Hygienist,0,0,0
+290,Orderly,0,0,0
+291,Personal Trainer,0,0,0
+292,Massage Therapy,0,0,0
+293,Medical Laboratory Tech,0,0,0
+294,Phlebotomist,0,0,0
+295,Medical Transcriptionist,0,0,0
+296,Telework Nurse/Doctor,0,0,0
+297,Reiki Practitioner,0,0,0
+298,Housekeeper,0,0,0
+299,Flight Attendant,0,0,0
+300,Travel Agent,0,0,0
+301,Hotel Front Door Greeter,0,0,0
+302,Bellhop,0,0,0
+303,Cruise Director,0,0,0
+304,Entertainment Specialist,0,0,0
+305,Hotel Manager,0,0,0
+306,Front Desk Associate,0,0,0
+307,Front Desk Manager,0,0,0
+308,Concierge,0,0,0
+309,Group Sales,0,0,0
+310,Event Planner,0,0,0
+311,Porter,0,0,0
+312,Spa Manager,0,0,0
+313,Wedding Coordinator,0,0,0
+314,Cruise Ship Attendant,0,0,0
+315,Casino Host,0,0,0
+316,Hotel Receptionist,0,0,0
+317,Reservationist,0,0,0
+318,Events Manager,0,0,0
+319,Meeting Planner,0,0,0
+320,Lodging Manager,0,0,0
+321,Director of Maintenance,0,0,0
+322,Valet,0,0,0
+323,Waiter/Waitress,0,0,0
+324,Server,0,0,0
+325,Chef,0,0,0
+326,Fast Food Worker,0,0,0
+327,Barista,0,0,0
+328,Line Cook,0,0,0
+329,Cafeteria Worker,0,0,0
+330,Restaurant Manager,0,0,0
+331,Wait Staff Manager,0,0,0
+332,Bus Person,0,0,0
+333,Restaurant Chain Executive,0,0,0
+334,Political Scientist,0,0,0
+335,Chemist,0,0,0
+336,Conservation Scientist,0,0,0
+337,Sociologist,0,0,0
+338,Biologist,0,0,0
+339,Geologist,0,0,0
+340,Physicist,0,0,0
+341,Astronomer,0,0,0
+342,Atmospheric Scientist,0,0,0
+343,Molecular Scientist,0,0,0
+344,Call Center Representative,0,0,0
+345,Customer Service,0,0,0
+346,Telemarketer,0,0,0
+347,Telephone Operator,0,0,0
+348,Phone Survey Conductor,0,0,0
+349,Dispatcher for Trucks or Taxis,0,0,0
+350,Customer Support Representative,0,0,0
+351,Over the Phone Interpreter,0,0,0
+352,Phone Sales Specialist,0,0,0
+353,Mortgage Loan Processor,0,0,0
+354,Counselor,0,0,0
+355,Mental Health Counselor,0,0,0
+356,Addiction Counselor,0,0,0
+357,School Counselor,0,0,0
+358,Speech Pathologist,0,0,0
+359,Guidance Counselor,0,0,0
+360,Social Worker,0,0,0
+361,Therapist,0,0,0
+362,Life Coach,0,0,0
+363,Couples Counselor,0,0,0
+364,Beautician,0,0,0
+365,Hair Stylist,0,0,0
+366,Nail Technician,0,0,0
+367,Cosmetologist,0,0,0
+368,Salon Manager,0,0,0
+369,Makeup Artist,0,0,0
+370,Esthetician,0,0,0
+371,Skin Care Specialist,0,0,0
+372,Manicurist,0,0,0
+373,Barber,0,0,0
+374,Journalist,0,0,0
+375,Copy Editor,0,0,0
+376,Editor/Proofreader,0,0,0
+377,Content Creator,0,0,0
+378,Speechwriter,0,0,0
+379,Communications Director,0,0,0
+380,Screenwriter,0,0,0
+381,Technical Writer,0,0,0
+382,Columnist,0,0,0
+383,Public Relations Specialist,0,0,0
+384,Proposal Writer,0,0,0
+385,Content Strategist,0,0,0
+386,Grant Writer,0,0,0
+387,Video Game Writer,0,0,0
+388,Translator,0,0,0
+389,Film Critic,0,0,0
+390,Copywriter,0,0,0
+391,Travel Writer,0,0,0
+392,Social Media Specialist,0,0,0
+393,Ghostwriter,0,0,0
+394,Warehouse Worker,0,0,0
+395,Painter,0,0,0
+396,Truck Driver,0,0,0
+397,Heavy Equipment Operator,0,0,0
+398,Welding,0,0,0
+399,Physical Therapy Assistant,0,0,0
+400,Housekeeper,0,0,0
+401,Landscaping Worker,0,0,0
+402,Landscaping Assistant,0,0,0
+403,Mover,0,0,0
+404,Animal Breeder,0,0,0
+405,Veterinary Assistant,0,0,0
+406,Farm Worker,0,0,0
+407,Animal Shelter Worker,0,0,0
+408,Dog Walker / Pet Sitter,0,0,0
+409,Zoologist,0,0,0
+410,Animal Trainer,0,0,0
+411,Service Dog Trainer,0,0,0
+412,Animal Shelter Manager,0,0,0
+413,Animal Control Officer,0,0,0
+414,Delivery Driver,0,0,0
+415,School Bus Driver,0,0,0
+416,Truck Driver,0,0,0
+417,Tow Truck Operator,0,0,0
+418,UPS Driver,0,0,0
+419,Mail Carrier,0,0,0
+420,Recyclables Collector,0,0,0
+421,Courier,0,0,0
+422,Bus Driver,0,0,0
+423,Cab Driver,0,0,0
+424,Animal Shelter Board Member,0,0,0
+425,Office Volunteer,0,0,0
+426,Animal Shelter Volunteer,0,0,0
+427,Hospital Volunteer,0,0,0
+428,Youth Volunteer,0,0,0
+429,Food Kitchen Worker,0,0,0
+430,Homeless Shelter Worker,0,0,0
+431,Conservation Volunteer,0,0,0
+432,Meals on Wheels Driver,0,0,0
+433,Habitat for Humanity Builder,0,0,0
+434,Emergency Relief Worker,0,0,0
+435,Red Cross Volunteer,0,0,0
+436,Community Food Project Worker,0,0,0
+437,Women’s Shelter Jobs,0,0,0
+438,Suicide Hotline Volunteer,0,0,0
+439,School Volunteer,0,0,0
+440,Community Volunteer Jobs,0,0,0
+441,Sports Volunteer,0,0,0
+442,Church Volunteer,0,0,0
+443,Archivist,0,0,0
+444,Actuary,0,0,0
+445,Architect,0,0,0
+446,Personal Assistant,0,0,0
+447,Entrepreneur,0,0,0
+448,Security Guard,0,0,0
+449,Mechanic,0,0,0
+450,Recruiter,0,0,0
+451,Mathematician,0,0,0
+452,Locksmith,0,0,0
+453,Management Consultant,0,0,0
+454,Shelf Stocker,0,0,0
+455,Caretaker or House Sitter,0,0,0
+456,Library Assistant,0,0,0
+457,Translator,0,0,0
+458,HVAC Technician,0,0,0
+459,Attorney,0,0,0
+460,Paralegal,0,0,0
+461,Executive Assistant,0,0,0
+462,Personal Assistant,0,0,0
+463,Bank Teller,0,0,0
+464,Parking Attendant,0,0,0
+465,Machinery Operator,0,0,0
+466,Manufacturing Assembler,0,0,0
+467,Funeral Attendant,0,0,0
+468,Assistant Golf Professional,0,0,0
+469,Yoga Instructor,0,0,0

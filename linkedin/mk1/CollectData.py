@@ -2,8 +2,8 @@ import click
 import pandas as pd
 
 from selenium import webdriver
-from linkedin.experience_data import Experience
-from linkedin.education_data import Education
+from linkedin.mk1.experience_data import Experience
+from linkedin.mk1.education_data import Education
 
 
 def __get_top_card_data(element):

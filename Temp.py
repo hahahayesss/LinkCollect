@@ -1,9 +1,10 @@
+import json
 import numpy as np
 import pandas as pd
+from scrape_linkedin import ProfileScraper
 
-raw_list = pd.read_csv("_jobs.csv").values
-total = 0
-for data in raw_list:
-    total += data[3]
+with ProfileScraper() as scraper:
+    profile = scraper.scrape(user="ahmet-turgut-8a482b96")
 
-print("Total:", total)
+with open("__temp.json", "w") as _temp_file:
+    json.dump(profile.to_dict(), _temp_file)

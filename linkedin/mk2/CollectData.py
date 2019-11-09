@@ -42,10 +42,10 @@ def _write_output(output, _temp_folder):
 
 @click.command()
 @click.option("--input_csv", "-i",
-              default=r"../../csv_files/Graphic Designer.csv",
+              default=r"../../_csv_files/Graphic Designer.csv",
               help="")
 @click.option("--output_json", "-o",
-              default=r"../../json_files/Graphic Designer.json",
+              default=r"../../_json_files/Graphic Designer.json",
               help="")
 @click.option("--temp_folder", "-t",
               default=r"_temp",

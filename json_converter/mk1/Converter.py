@@ -13,7 +13,7 @@ def __list_to_text(_list):
     if len(_list) > 0:
         _full_text = ""
         for _data in _list:
-            _full_text += _data + SEPARATOR_0
+            _full_text += _data.strip() + SEPARATOR_0
         return _full_text[:-7]
     else:
         return None
@@ -34,80 +34,91 @@ def __date_range(_date_range):
 def __jobs(jobs_info):
     _full_job_text = ""
     for _job in jobs_info:
-        _temp = str(_job["title"])
+        _temp = str(_job["title"]).strip()
         _temp += SEPARATOR_1
-        _temp += str(_job["company"])
+        _temp += str(_job["company"]).strip()
         _temp += SEPARATOR_1
-        _temp += __date_range(_job["date_range"])
+        _temp += __date_range(_job["date_range"]).strip()
         _temp += SEPARATOR_1
-        _temp += str(_job["location"])
+        _temp += str(_job["location"]).strip()
         _temp += SEPARATOR_1
-        _temp += str(_job["description"])
+        _temp += str(_job["description"]).strip()
         _temp += SEPARATOR_1
 
         if _job["li_company_url"] == "":
             _temp += "0"
         else:
             _temp += "1"
-        _full_job_text += _temp + SEPARATOR_0
+        _full_job_text += _temp.strip() + SEPARATOR_0
     return _full_job_text[:-7]
 
 
 def __education(education_info):
     _full_education_text = ""
     for _education in education_info:
-        _temp = str(_education["name"])
+        _temp = str(_education["name"]).strip()
         _temp += SEPARATOR_1
-        _temp += str(_education["degree"])
+        _temp += str(_education["degree"]).strip()
         _temp += SEPARATOR_1
-        _temp += str(_education["grades"])
+        _temp += str(_education["grades"]).strip()
         _temp += SEPARATOR_1
-        _temp += str(_education["field_of_study"])
+        _temp += str(_education["field_of_study"]).strip()
         _temp += SEPARATOR_1
-        _temp += __date_range(_education["date_range"])
+        _temp += __date_range(_education["date_range"]).strip()
         _temp += SEPARATOR_1
-        _temp += str(_education["activities"])
-        _full_education_text += _temp + SEPARATOR_0
+        _temp += str(_education["activities"]).strip()
+        _full_education_text += _temp.strip() + SEPARATOR_0
     return _full_education_text[:-7]
 
 
 def __volunteering(volunteering_info):
     _full_volunteering_text = ""
     for _volunteering in volunteering_info:
-        _temp = str(_volunteering["title"])
+        _temp = str(_volunteering["title"]).strip()
         _temp += SEPARATOR_1
-        _temp += str(_volunteering["company"])
+        _temp += str(_volunteering["company"]).strip()
         _temp += SEPARATOR_1
-        _temp += __date_range(_volunteering["date_range"])
+        _temp += __date_range(_volunteering["date_range"]).strip()
         _temp += SEPARATOR_1
-        _temp += str(_volunteering["location"])
+        _temp += str(_volunteering["location"]).strip()
         _temp += SEPARATOR_1
-        _temp += str(_volunteering["cause"])
+        _temp += str(_volunteering["cause"]).strip()
         _temp += SEPARATOR_1
-        _temp += str(_volunteering["description"])
-        _full_volunteering_text += _temp + SEPARATOR_0
+        _temp += str(_volunteering["description"]).strip()
+        _full_volunteering_text += _temp.strip() + SEPARATOR_0
     return _full_volunteering_text[:-7]
 
 
 def _personal_info(row, personal_info):
-    row.append(personal_info["name"])
-    row.append(personal_info["headline"])
-    row.append(personal_info["company"])
-    row.append(personal_info["school"])
-    row.append(personal_info["location"])
-    row.append(personal_info["summary"])
+    row.append(str(personal_info["name"]).strip())
+    row.append(str(personal_info["headline"]).strip())
+    row.append(str(personal_info["company"]).strip())
+    row.append(str(personal_info["school"]).strip())
+    row.append(str(personal_info["location"]).strip())
+
+    if personal_info["summary"] == "":
+        row.append(str(None))
+    else:
+        row.append(str(personal_info["summary"]).strip())
 
     if personal_info["image"] == "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7":
         row.append(None)
     else:
-        row.append(personal_info["image"])
+        row.append(str(personal_info["image"]).strip())
 
-    row.append(personal_info["followers"])
-    row.append(personal_info["email"])
-    row.append(personal_info["phone"])
-    row.append(personal_info["connected"])
+    if personal_info["followers"] == "":
+        row.append(str(None))
+    else:
+        row.append(str(personal_info["followers"]).strip())
+    row.append(str(personal_info["email"]).strip())
+    row.append(str(personal_info["phone"]).strip())
+    row.append(str(personal_info["connected"]).strip())
     row.append(__list_to_text(personal_info["websites"]))
-    row.append(personal_info["current_company_link"])
+
+    if personal_info["current_company_link"] == "":
+        row.append(str(None))
+    else:
+        row.append(str(personal_info["current_company_link"]).strip())
     return row
 
 
@@ -117,18 +128,21 @@ def _experiences(row, experiences_info):
         row.append(len(experiences_info["jobs"]))
     else:
         row.append(None)
+        row.append(0)
 
     if len(experiences_info["education"]) > 0:
         row.append(__education(experiences_info["education"]))
         row.append(len(experiences_info["education"]))
     else:
         row.append(None)
+        row.append(0)
 
     if len(experiences_info["volunteering"]) > 0:
         row.append(__volunteering(experiences_info["volunteering"]))
         row.append(len(experiences_info["volunteering"]))
     else:
         row.append(None)
+        row.append(0)
     return row
 
 
@@ -172,6 +186,20 @@ def _accomplishments(row, accomplishments_info):
     return row
 
 
+def _clean_text(row):
+    for index in range(len(row)):
+        row[index] = str(row[index]) \
+            .replace("\n", "") \
+            .replace("\t", "") \
+            .replace("…", "")
+        while str(row[index]).__contains__("  "):
+            row[index] = str(row[index]) \
+                .replace("  ", " ")
+        row[index] = str(row[index]) \
+            .replace(" see more", "")
+    return row
+
+
 def create_row(row_info):
     _row = []
     _row = _personal_info(_row, row_info["personal_info"])
@@ -181,6 +209,8 @@ def create_row(row_info):
     _row = _accomplishments(_row, row_info["accomplishments"])
     _row.append(__list_to_text(row_info["interests"]))
     _row.append(len(row_info["interests"]))
+
+    _row = _clean_text(_row)
     return _row
 
 
